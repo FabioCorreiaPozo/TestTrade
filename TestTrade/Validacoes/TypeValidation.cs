@@ -9,6 +9,9 @@ namespace TestTrade
 {
     internal class TypeValidation
     {
+
+        public delegate bool Validate (string CallDate);
+
         public bool ValidadeDate(String CallDate)
         {
             DateTime dtValidation;           
