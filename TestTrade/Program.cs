@@ -39,6 +39,7 @@ namespace TestTrade
                     linei++;
                 }
                 Console.WriteLine(Retorno);
+                Console.ReadKey();
 
             }
             catch (Exception ex)
